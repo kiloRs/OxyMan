@@ -1,0 +1,147 @@
+#Loaded from configurations
+NZTEVENT:
+  display: "&f&lNZT &chas hit the street in droves - It has been hailed as the end of risky drugs"
+  weight: 1
+  modifier: 0.5
+  affects:
+    - "ALL"
+DMTEVENT:
+  display: "&aUniversity students have discovered &c&lDMT&a. Popularity grows."
+  weight: 1
+  modifier: 1.2
+  affects:
+    - "DMT"
+HEROINEVENT:
+  display: "&cNew strains of &7&lHeroin &care now lethal."
+  weight: 1
+  modifier: 0.4
+  affects:
+    - "HEROIN"
+MORPHINEEVENT:
+  display: "&cThe National Health Service has moved away from using &1&lMorphine &cto treat pain."
+  weight: 1
+  modifier: 0.2
+  affects:
+    - "MORPHINE"
+SPEEDEVENT:
+  display: "&f&lSpeed &ahas spread rapidly overseas."
+  weight: 1
+  modifier: -60
+  affects:
+    - "SPEED"
+MDMAEVENT:
+  display: "&cFestival sniffer dogs can now smell &4&lMDMA &cthrough all containers."
+  weight: 1
+  modifier: -30
+  affects:
+    - "MDMA"
+ECSTASYEVENT:
+  display: "&6&lEcstasy &euse has &aincreased&e during lockdown."
+  weight: 1
+  modifier: +50
+  affects:
+    - "MOLLY"
+METHEVENT:
+  display: "&aPeople love Breaking Bad - &3&lCrystal Meth &ause has surged."
+  weight: 1
+  modifier: +60
+  affects:
+    - "PRISMARINE_CRYSTALS"
+GHBEVENT:
+  display: "&cPeople are deterred from going to clubs - &b&lGHB &csales go down."
+  weight: 1
+  modifier: -90
+  affects:
+    - "FEATHER"
+OXYCODONEEVENT:
+  display: "&cChemists are cracking down on overindulgence of &a&lOxycodone&c."
+  weight: 1
+  modifier: -10
+  affects:
+    - "MAGMA_CREAM"
+SPICEEVENT:
+  display: "&4&lSpice &cis scaring the general public."
+  weight: 1
+  modifier: -80
+  affects:
+    - "SLIME_BALL"
+TOBACCOEVENT:
+  display: "&cPeople are moving away from traditional &2&lTobacco &cintake."
+  weight: 2
+  modifier: -30
+  affects:
+    - "MELON_SLICE"
+OPIUMEVENT:
+  display: "&5&lOpium &ais being made in peoples' gardens."
+  weight: 2
+  modifier: +20
+  affects:
+    - "COCOA_BEANS"
+MUSHROOMEVENT:
+  display: "&9&lMagic Mushrooms &ahave been legalised across the continent."
+  weight: 2
+  modifier: +60
+  affects:
+    - "NETHER_WART"
+LSEVENT:
+  display: "&d&lL&a&lS&b&lD &ahas cool colours."
+  weight: 1
+  modifier: +20
+  affects:
+    - "DRIED_KELP"
+COCAINEEVENT:
+  display: "&aThe famous have glorified &f&lCocaine &ause."
+  weight: 1
+  modifier: +30
+  affects:
+    - "SUGAR"
+KETAMINEEVENT:
+  display: "&aYouths now believe they are horses - &f&lKetamine &ause shoots up."
+  weight: 1
+  modifier: +50
+  affects:
+    - "GLOWSTONE_DUST"
+POPPERSEVENT:
+  display: "&cCorner shops can no longer sell &6&lPoppers&c."
+  weight: 1
+  modifier: -80
+  affects:
+    - "PUMPKIN"
+GLUESEVENT:
+  display: "&aPrimary school children have taken to sniffing Pritt Stick &7&lGlues&a."
+  weight: 1
+  modifier: +15
+  affects:
+    - "POTATO"
+NITROSEVENT:
+  display: "&cTeens have realised inhaling &e&lNos &cis wet."
+  weight: 1
+  modifier: -60
+  affects:
+    - "CARROT"
+BATHSALTEVENT:
+  display: "&f&lBath Salts &aare now being covertly sold in designer wash kits."
+  weight: 1
+  modifier: +40
+  affects:
+    - "GLOW_BERRIES"
+MARIJUANAEVENT:
+  display: "&aSnoop is doing a world tour of his new &2&lMarijuana &aproducts."
+  weight: 1
+  modifier: +50
+  affects:
+    - "WHEAT"
+KHATEVENT:
+  display: "&2&lKhat &chas been added as a Class C drug."
+  weight: 1
+  modifier: -70
+  affects:
+    - "GREEN_DYE"
+BADBATCHEVENT:
+  display: "&2&lKhat &chas been added as a Class C drug."
+  weight: 4
+  modifier: -70
+  affects:
+    - "!HEROIN"
+    - "!COCAINE"
+    #Loaded Directly from Configurations

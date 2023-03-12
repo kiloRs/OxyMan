@@ -1,0 +1,9 @@
+example:
+  value: 0.1
+bad:
+  value: 0.15
+good:
+  value: 0.3
+amazing:
+  value: 1.0
+  #Loaded Directly from Configurations

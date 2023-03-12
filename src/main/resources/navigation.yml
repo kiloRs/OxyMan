@@ -1,0 +1,21 @@
+filler:
+  id: "FILLER"
+refresh:
+  id: "REFRESH"
+sell:
+  id: "SELL"
+cancel:
+  id: "CANCEL"
+confirm:
+  id: "CONFIRM"
+skull:
+  id: "SKULL"
+price:
+  id: "PRICE"
+low:
+  id: "LOW"
+high:
+  id: "HIGH"
+
+
+  #Loaded Directly from Configurations

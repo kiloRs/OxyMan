@@ -1,0 +1,69 @@
+main: com.thebetterchoice.oxyman.OxyPlugin
+version: 3.0.1
+name: Oxy
+api-version: 1.18
+author: Kilo
+depend: [Vault,MMOItems, MythicLib,LuckPerms]
+softdepend: [ MMOCore,PlaceholderAPI,MythicMobs]
+commands:
+  oxycheck:
+    description: Check Items / Open Secret Shop
+    usage: /OxyCheck <Shop>
+    permission: oxy.check
+  sell:
+    aliases: selllist
+    description: §aOpens the Sell gui.
+    usage: §8§l[§4§lOxy§8§l]§c Did you mean /sell? See the current prices by doing /sell list or sell all using /sellall
+    permission: oxy.sell
+  sellall:
+    description: §aSells all items.
+    usage: §cUsage /sellall
+    permission: oxy.sellall
+  oxyevent:
+    description: §aShows current events.
+    usage: §cUsage /event
+    permission: oxy.event
+  triggerevent:
+    description: §aForces a event.
+    usage: §cUsage /triggerevent <Event Index> <time>
+    permission: oxy.admin.triggerevent
+  oxy:
+    description: §aGeneral Plugin Command
+    usage: §cUsage /oxy <reload:reset:setbonus>
+  oxy setbonus:
+    description: §aCreates a temporary bonus
+    usage: §cUsage /oxy setbonus <user/all> <time> <amountOfItems>
+  influence:
+    description: §a Adds sales to a drug affecting its price
+    usage: §cUsage /influence <LoadingDrug> <sales amountOfItems>
+    permission: oxy.admin.influence
+  oxybonus:
+    aliases: oxyboost
+    description: §aDisplays Your current bonus
+    usage: §cUsage /oxybonus
+    permission: oxy.bonus
+permissions:
+  oxy.check:
+    default: true
+  oxy.sell:
+    default: true
+  oxy.sellall:
+    default: true
+  oxy.event:
+    default: true
+  oxy.bonus:
+    default: true
+  oxy.ignore:
+    default: op
+  oxy.admin.cleanslate:
+    default: op
+  oxy.admin.triggerevent:
+    default: op
+  oxy.admin.influence:
+    default: op
+  oxy.admin.reload:
+    default: op
+  oxy.admin.setbonus:
+    default: op
+
+    #Loaded Directly from Configurations

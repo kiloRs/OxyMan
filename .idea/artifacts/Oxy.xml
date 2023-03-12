@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Oxy">
+    <output-path>$PROJECT_DIR$/../../Server Hosting/servers/1.18/plugins</output-path>
+    <root id="archive" name="Oxy.jar">
+      <element id="module-output" name="OxyMan" />
+    </root>
+  </artifact>
+</component>

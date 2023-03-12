@@ -1,0 +1,51 @@
+prefix: "&aOxy"
+currency: '$'
+decimal: "#,###.00"
+bonus-start: "&aStarting bonus of %bonus% for %formatted_time%"
+bonus-end: "&cEnding bonus of bonus value: %bonus%."
+bonus-error: "&4Invalid Bonus Error"
+bonus-reset: "Your bonus of %bonus% was reset."
+bonus-personal-total: "&aYour personal bonus is %bonus%"
+bonus-all-total: "&aYou have %amountOfItems% bonuses enabled."
+bonus-personal-end: "Personal Bonus of %bonus% has ended"
+bonus-personal-empty: "Personal Bonus not found"
+bonus-personal-start: "Starting Personal Bonus of %bonus% for %formatted_time%"
+bonus-global-end: "Global Bonus of %bonus% has ended"
+bonus-global-empty: "Global Bonus not found"
+bonus-global-total: "You have a Global bonus amountOfItems of %bonus% active for a remaining time of %formatted_time%"
+
+reload: "&aPlugin OxyPlugin reloaded!"
+sell-cancel-basic: "&cCancelled Sale!"
+sell-cancel-drop: "&cSale Cancelled! Your items have been dropped or pushed into your inventory!"
+sell-success: " You sold %value%  worth of drugs"
+sell-cancel-none: "&cNo Item has been found to sell!"
+sell-price-alert: "&cIf you sell now you will lose %currency% %bonus% due to an event! Do /sellall to confirm!"
+sell-price-display: "&ePrice: %currency% %value% "
+sell-empty: "&4No Item Found"
+
+refresh-error: "&cYou can't refresh that frequently!"
+event-increase: "&aYou gained %value% !"
+event-decrease: "&aYou lost %value% !"
+cancel-sale: "&cCancelled Sale of Substances"
+display-price: "&ePrice: %bonus%"
+debug:
+  sell: "&aItem Sold [%item%:%value%]"
+  permissions:
+    empty: "&cNo Permissions found for %player_name%"
+navigation:
+  filler: "Empty Slot"
+  high: "&aHigh to Low"
+  low: "&aLow to High"
+  refresh: "&eClick to Refresh!"
+active:
+    event: "&aCurrently there is an active event left for %time%"
+join-message: "&eWelcome to _Server_Name_"
+join-permission: "&aYou have received the permission bonus of %bonus%"
+leave-remove: "&cYou have lost the %bonus% bonus ! !"
+leave-message: "&cSee you next time!"
+command:
+  influence: "Influenced %drug% from %base% to %modifier%"
+shop:
+  close: "&c"
+  open: "&a"
+  error: "&4"  #Loaded Directly from Configurations

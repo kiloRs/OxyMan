@@ -1,0 +1,82 @@
+COCAINE:
+  Price:
+    Max: -1
+    Min: 0
+    Base: 0
+  Demand:
+    Base: 1.0
+    Max: 10
+    Min: -10
+  Type: []
+HEROIN:
+  Price:
+    Max: 5
+    Min: 0
+    Base: 0
+  Demand:
+    Base: 3.0
+    Max: 5
+    Min: 0
+  Type: []
+ROXY:
+  Price:
+    Max: 5
+    Min: 0
+    Base: 0
+  Demand:
+    Base: 2.0
+    Max: 5
+    Min: 0
+  Type: []
+CRACK:
+  Price:
+    Max: 5
+    Min: 0
+    Base: 0
+  Demand:
+    Base: 3.0
+    Max: 5
+    Min: 0
+  Type: []
+METHAMPHETYMINE:
+  Price:
+    Max: 5
+    Min: 0
+    Base: 0
+  Demand:
+    Base: 3.0
+    Max: 5
+    Min: 0
+    Chance: 0.9
+  Type: []
+LSD:
+  Price:
+    Max: 5
+    Min: 0
+    Base: 0
+  Demand:
+    Base: 3.0
+    Max: 5
+    Min: 0
+  Type: []
+DMT:
+  Price:
+    Max: 5
+    Min: 0
+    Base: 0
+  Demand:
+    Base: 3.0
+    Max: 5
+    Min: 0
+  Type: []
+GHB:
+  Price:
+    Max: 5
+    Min: 0
+    Base: 0
+  Demand:
+    Base: 3.0
+    Max: 5
+    Min: 0
+  Type: []
+  #Loaded Directly from Configurations

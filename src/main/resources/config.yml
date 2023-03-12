@@ -1,0 +1,75 @@
+#MySQL for saving event bonus amounts to player.
+Debug:
+  Enabled: true
+Format:
+  Standard: "<currency>#,###"
+sql:
+  ip: "localhost:3306"
+  database: "core"
+  username: "root"
+  password: ""
+Load:
+  Timer: 5 #Minutes [For Loading Items: Set this to 30 for best results]
+
+Boost:
+  Time:
+    Default: 60 #Minutes [Default 60]
+Server:
+  Cost:
+    Max: 100000 #Highest Possible Cost
+    Min: 0 #Lowest Possible Cost
+    Base: 1 #Default Cost before Item Cost
+  Demand:
+    Max: 1000 #Max Random Demand Amount: Set to -1000 to disable!
+    Min: 0 #Min Random Demandd AMount: Set to -1000 to disable!
+    Base: 1 #Default Shift of Demand Amount
+    Offset: 1 #Offset
+    Chance: 1.0
+    Reduction:
+      Length: 30 #Reduction Timer from Launch
+      Repeat: 30 #Reduction Timer between Reductions
+    Repeat: 10 #Unsure?
+    Delay: 10 #Unsure?
+  Bonuses:
+    Max: 7
+
+Global:
+  Base: 0.4
+Special:
+  Event:
+    Handler:
+      Market:
+        Repeat: 2 #Minutes
+        Max: 100 #Events Held
+        Min: 0 #Events Min Active at Once
+        Chance: 0.8
+        Weight:
+          Max: 100 #Total random amountOfItems of events the holder can tolerate
+      HarshMarket:
+        Repeat: 10 #Minutes
+        Max: 10
+        Min: 0
+        Chance: 0.2
+        Weight:
+          Max: 7 #Total random amountOfItems of events the holder can tolerate
+      UpperMarket:
+        Repeat: 10 #Minutes
+        Max: 3
+        Min: 1
+        Chance: 0.2
+        Weight:
+          Max: 7 #Total random amountOfItems of events the holder can tolerate
+Shops:
+  ItemMenu:
+    Name: "&a: - &lItem Shop&r&a for Selling - :"
+    Permission: "Oxy.Shop.ItemShop"
+  EmptyShop:
+    Name: "&cEmpty Shop"
+    Permission: "Oxy.Shop.EmptyShop"
+
+Shop:
+  Market:
+    Size: 36
+    Name: "Market"
+
+  #Loaded Directly from Configurations
